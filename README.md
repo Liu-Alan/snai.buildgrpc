@@ -2,7 +2,7 @@
 Go生成Grpc
 
 参考：https://www.imooc.com/article/274716  
-vscode-proto3插件：https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3
+vscode-proto3插件：https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3  
 
 #### 生成  
     把protocbuf 生成器和proto文件放在一个目录下，执行  
