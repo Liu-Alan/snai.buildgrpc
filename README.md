@@ -3,7 +3,7 @@ Go生成Grpc
 
 参考：https://www.imooc.com/article/274716  
 
-生成  
+#### 生成  
   把protocbuf 生成器和proto文件放在一个目录下，执行  
 
   protoc --go_out=plugins=grpc:. *.proto   //"."和"*"之间有个空格，不然会出错  
