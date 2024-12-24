@@ -5,7 +5,7 @@ Go生成Grpc
 vscode-proto3插件：https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3  
 
 #### 生成  
-    把protocbuf 生成器和proto文件放在一个目录下，执行  
+    把protocbuf 生成器和proto文件放在一个目录下，cmd执行  
 
     protoc --go_out=plugins=grpc:. *.proto   //"."和"*"之间有个空格，不然会出错  
     protoc -I=proto --go_out=plugins=grpc:. base.proto  
