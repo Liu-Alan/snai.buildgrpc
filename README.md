@@ -11,7 +11,6 @@ vscode-proto3插件：https://marketplace.visualstudio.com/items?itemName=zxh404
     powershell：.\protoc --go_out=plugins=grpc:. *.proto   //"."和"*"之间有个空格，不然会出错  
     
     protoc -I=proto --go_out=plugins=grpc:. base.proto  
-
     “*”换成你的proto文件名  
 
     如果指定proto文件路径可以加“-I”来指定，“-I”是“–proto_path”的简写  
